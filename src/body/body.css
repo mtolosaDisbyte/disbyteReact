@@ -1,21 +1,34 @@
 .body-div{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    height: 100%;
     background-image: url("../assets/fondoOscuro.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    width: auto
+    width: auto;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
 }
 
-.body-div ul{
-    color: aliceblue;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 150px;
-    padding-bottom: 50px;
+
+
+.trash:hover{
+    color: #a4161a;
+    transition-duration: 0.2s;
+}
+.edit:hover{
+    color: green;
+    transition-duration: 0.2s;
+}
+
+.edit{
+    margin: 0 11px 0 11px;
+}
+
+.info:hover{
+    color: #0096c7;
+    transition-duration: 0.2s
 }

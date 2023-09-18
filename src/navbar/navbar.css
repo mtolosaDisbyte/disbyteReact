@@ -6,6 +6,8 @@ a{
 .navbar-bg{
     width: 100%;
     position: fixed;
+    background-color: black;
+    top: 0;
     z-index: 2;
 }
 
@@ -14,9 +16,7 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color: #2d2d32;
-    border-radius: 0.5rem;
-    border: 1px solid #8000e5;
-    margin: 2.6rem 2rem;
+    border-bottom: 1px solid #8000e5;
     padding: auto 2rem;
 }
 
