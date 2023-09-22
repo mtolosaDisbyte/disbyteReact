@@ -1,0 +1,46 @@
+.body-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/fondoOscuro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+  }
+
+  .trash:hover {
+    color: #a4161a;
+    transition-duration: 0.2s;
+  }
+  
+  .edit:hover {
+    color: green;
+    transition-duration: 0.2s;
+  }
+  
+  .edit {
+    margin: 0 11px 0 11px;
+  }
+  
+  .info:hover {
+    color: #0096c7;
+    transition-duration: 0.2s;
+  }
+  
+  .pagination {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .lines-per-page {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
