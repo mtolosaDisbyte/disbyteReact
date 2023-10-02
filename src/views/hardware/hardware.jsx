@@ -19,7 +19,7 @@ const Hardware = () => {
     const GetList = (page, url) => { 
         let uri =
             page === null
-                ? url : `http://localhost:3001/api/listH/?page=${page}`
+                ? url : `http://localhost:3001/api/listH/?page=${page}&pageSize=${pageSize}`
     fetch(uri)
       .then((response) => response.json())
       .then((data) => {
@@ -50,7 +50,7 @@ const Hardware = () => {
 
   return (
     <div className="body-div">
-      <Table style={{ width: '65%'}} dark hover>
+      <Table style={{ width: '80%'}} dark hover>
         <thead>
           <tr>
             <th>EQUIPO</th>

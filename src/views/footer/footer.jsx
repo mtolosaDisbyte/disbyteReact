@@ -1,9 +1,9 @@
 import React from "react";
 import './footer.css';
-import fb from '../assets/fbimg.png'
-import twitter from '../assets/twitterimg.png'
-import linkedin from '../assets/linkedinimg.png'
-import insta from '../assets/instaimg.png'
+import fb from '../../assets/fbimg.png'
+import twitter from '../../assets/twitterimg.png'
+import linkedin from '../../assets/linkedinimg.png'
+import insta from '../../assets/instaimg.png'
 
 const Footer=()=>{
     return (

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import { AiOutlineLogout } from 'react-icons/ai'
-import logo from '../assets/disbyteblanco.png'
+import logo from '../../assets/disbyteblanco.png'
 import { NavLink } from "react-router-dom"; // Importa NavLink de react-router-dom
 
 const Navbar = () => {
